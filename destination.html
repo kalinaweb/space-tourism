@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Space tourism website</title>
+	<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div class="background destination"></div>
+	<header class="header">
+		<div class="header__logo">
+			<a href="./index.html">
+				<img src="icons/logo.svg" width="48" height="48" alt="">
+			</a>
+		</div>
+		<div class="header__nav-wrap">
+			<nav>
+				<ul>
+					<li><a href="./index.html"><span>00</span>HOME</a></li>
+					<li class="active"><a href="./destination.html"><span>01</span>DESTINATION</a></li>
+					<li><a href="./crew.html"><span>02</span>CREW</a></li>
+					<li><a href="./technology.html"><span>03</span>TECHNOLOGY</a></li>
+				</ul>
+			</nav>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__left">
+			<h2><span>01</span>Pick your destination</h2>
+			<div class="tabs-imgs">
+				<div class="main__planet tab-img active" data-tab-content="1">
+					<img src="img/destination/image-moon.png" width="445" height="445" alt="">
+				</div>
+				<div class="main__planet tab-img" data-tab-content="2">
+					<img src="img/destination/image-mars.png" width="445" height="445" alt="">
+				</div>
+				<div class="main__planet tab-img" data-tab-content="3">
+					<img src="img/destination/image-europa.png" width="445" height="445" alt="">
+				</div>
+				<div class="main__planet tab-img" data-tab-content="4">
+					<img src="img/destination/image-titan.png" width="445" height="445" alt="">
+				</div>
+			</div>			
+		</div>
+		<div class="main__right tabs-content">
+			<div class="main__planet-tabs tabs-btns">
+				<ul>
+					<li class="active" data-tab="1">Moon</li>
+					<li data-tab="2">Mars</li>
+					<li data-tab="3">Europa</li>
+					<li data-tab="4">Titan</li>
+				</ul>
+			</div>
+			<div class="main__planet-text tab-content active" data-tab-content="1">
+				<h2>Moon</h2>
+				<p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+					regain perspective and come back&nbsp;refreshed. While you’re there, take in some history
+					by&nbsp;visiting the Luna 2 and Apollo 11 landing sites.</p>
+				<div class="main__planet-footer">
+					<div class="main__planet-distance">
+						<span>Avg. distance</span>
+						384,400 km
+					</div>
+					<div class="main__planet-time">
+						<span>Est. travel time</span>
+						3 days
+					</div>
+				</div>
+			</div>
+			<div class="main__planet-text tab-content" data-tab-content="2">
+				<h2>MARS</h2>
+				<p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+				<div class="main__planet-footer">
+					<div class="main__planet-distance">
+						<span>Avg. distance</span>
+						225 MIL. km
+					</div>
+					<div class="main__planet-time">
+						<span>Est. travel time</span>
+						9 months
+					</div>
+				</div>
+			</div>
+			<div class="main__planet-text tab-content" data-tab-content="3">
+				<h2>EUROPA</h2>
+				<p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+				<div class="main__planet-footer">
+					<div class="main__planet-distance">
+						<span>Avg. distance</span>
+						628 MIL. km
+					</div>
+					<div class="main__planet-time">
+						<span>Est. travel time</span>
+						3 years
+					</div>
+				</div>
+			</div>
+			<div class="main__planet-text tab-content" data-tab-content="4">
+				<h2>TITAN</h2>
+				<p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+				<div class="main__planet-footer">
+					<div class="main__planet-distance">
+						<span>Avg. distance</span>
+						1.6 BIL. km
+					</div>
+					<div class="main__planet-time">
+						<span>Est. travel time</span>
+						7 years
+					</div>
+				</div>
+			</div>
+	</main>
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

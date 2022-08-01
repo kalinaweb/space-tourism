@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Space tourism website</title>
+	<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div class="background technology"></div>
+	<header class="header">
+		<div class="header__logo">
+			<a href="./index.html">
+				<img src="icons/logo.svg" width="48" height="48" alt="">
+			</a>
+		</div>
+		<div class="header__nav-wrap">
+			<nav>
+				<ul>
+					<li><a href="./index.html"><span>00</span>HOME</a></li>
+					<li><a href="./destination.html"><span>01</span>DESTINATION</a></li>
+					<li><a href="./crew.html"><span>02</span>CREW</a></li>
+					<li class="active"><a href="./technology.html"><span>03</span>TECHNOLOGY</a></li>
+				</ul>
+			</nav>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<main class="main technology">
+		<div class="main__left show-small">
+			<h2><span>03</span>SPACE LAUNCH 101</h2>
+		</div>
+		<div class="main__left tabs-content">
+			<h2 class="hide-small"><span>03</span>SPACE LAUNCH 101</h2>
+			<div class="main__left-tabs tabs-btns">
+				<ul>
+					<li class="active" data-tab="1">1</li>
+					<li data-tab="2">2</li>
+					<li data-tab="3">3</li>
+				</ul>
+			</div>
+			<div class="tab-content active" data-tab-content="1">
+				<h3>THE TERMINOLOGY… </h3>
+				<h1>LAUNCH VEHICLE</h1>
+				<p>A launch vehicle or carrier rocket is a <span>rocket-propelled</span> vehicle used to carry a payload from
+					Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier&nbsp;rocket is the most powerful
+					in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+			</div>
+			<div class="tab-content" data-tab-content="2">
+				<h3>THE TERMINOLOGY… </h3>
+				<h1>SPACEPORT</h1>
+				<p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for
+					ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take
+					advantage of the Earth’s rotation for launch.</p>
+			</div>
+			<div class="tab-content" data-tab-content="3">
+				<h3>THE TERMINOLOGY… </h3>
+				<h1>SPACE CAPSULE</h1>
+				<p>A space capsule is an often-crewed spacecraft that uses a&nbsp;blunt-body reentry capsule to reenter the
+					Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a
+					space gym,&nbsp;cinema, and plenty of other activities to keep you entertained.</p>
+			</div>
+		</div>
+		<div class="main__right tabs-imgs">
+			<div class="tab-img active" data-tab-content="1">
+				<img class="hide-small" src="./img/technology/image-launch-vehicle-portrait.jpg" alt="">
+				<img class="show-small" src="./img/technology/image-launch-vehicle-landscape.jpg" alt="">
+			</div>
+			<div class="tab-img" data-tab-content="2">
+				<img class="hide-small" src="./img/technology/image-spaceport-portrait.jpg" alt="">
+				<img class="show-small" src="./img/technology/image-spaceport-landscape.jpg" alt="">
+			</div>
+			<div class="tab-img" data-tab-content="3">
+				<img class="hide-small" src="./img/technology/image-space-capsule-portrait.jpg" alt="">
+				<img class="show-small" src="./img/technology/image-space-capsule-landscape.jpg" alt="">
+			</div>
+		</div>
+	</main>
+
+	<script src="js/script.js"></script>
+	<!-- Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience! -->
+</body>
+
+</html>
